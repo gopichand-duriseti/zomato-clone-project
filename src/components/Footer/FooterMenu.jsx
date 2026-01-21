@@ -6,7 +6,7 @@ const FooterMenu = ({ heading }) => {
             {heading.map((item, index) => {
                 return (
                     <a href={FooterMenuLinks[item]} target='blank'>
-                        <span key={index}>{item}</span>
+                        <span className='hover:text-gray-300' key={index}>{item}</span>
                     </a>          
                 )
             })
